@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:wght@100;400&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.section-1{
+    height: auto;
+    background-image: url(images/code2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#name{
+    font-family: Rancho;
+    color: coral;
+    
+    
+}
+.me{
+    height: 30%;
+    /* margin-left: 40%; */
+    margin-top: 2%;
+    clip-path: circle();
+}
+#introText{
+    font-family: Rancho;
+    font-size: 20px;
+    color: whitesmoke;
+     /* margin-left: 50%;  */
+    margin-top: 0%;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.button{
+    text-align: center;
+    width: 15%;
+    height: 20%;
+    border-color: coral;
+    color: whitesmoke;
+    font-family: rancho;
+    
+}
+.button:hover{
+    background-color:rgba(250, 156, 68, 0.774);
+    color: whitesmoke
+    
+}
+#cvBtn{
+    margin-left: 30%;
+}
+#contactBtn{
+    margin-left: 2%;
+}
+#galleryBtn{
+    margin-left: 2%;
+}
+.navbar-nav{
+    float: none;
+    text-align: center;
+}
+.navbar-nav li{
+    display: inline-block;
+    float: none;
+    
+}
+#lnks{
+    color:whitesmoke;
+    font-family: rancho;
+    font-size: 20px;
+}
+#lnks:hover{
+    color: coral;
+    border-bottom: 3px solid coral;
+
+}
+.section-2{
+    background-color:whitesmoke;
+    font-family: rancho;
+    color: coral;
+
+
+}
+#content1PARENT{
+    border: 5px solid red;
+    width: 400px;
+     
+}
+#nav-togglebtn{
+    
+    color: white;
+    
+}
+#lnks{
+    display: inline-block;
+}
+#navToggle{
+    background-color: coral;
+}
+
